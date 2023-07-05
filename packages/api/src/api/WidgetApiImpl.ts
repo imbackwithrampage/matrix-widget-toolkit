@@ -52,6 +52,7 @@ import {
 } from './parameters';
 import { generateWidgetRegistrationUrl } from './registration';
 import {
+  RoomAccountData,
   RoomEvent,
   StateEvent,
   ToDeviceMessageEvent,
@@ -451,19 +452,37 @@ export class WidgetApiImpl implements WidgetApi {
     }
   }
 
+  async receiveRoomAccountData<T>(
+      eventType: string,
+      { roomIds }: { roomIds?: string[] | Symbols.AnyRoom } = {}
+  ): Promise<Array<RoomAccountData<T>>> {
+    return (await this.matrixWidgetApi.readRoomAccountData(
+        eventType,
+        typeof roomIds === 'string' ? [Symbols.AnyRoom] : roomIds
+    )) as RoomAccountData<T>[];
+  }
+
   /** {@inheritDoc WidgetApi.receiveRoomEvents} */
   async receiveRoomEvents<T>(
     eventType: string,
     {
       messageType,
+      limit,
       roomIds,
-    }: { messageType?: string; roomIds?: string[] | Symbols.AnyRoom } = {}
+      since,
+    }: {
+      messageType?: string;
+      limit?: number | undefined;
+      roomIds?: string[] | Symbols.AnyRoom;
+      since?: string | undefined;
+    } = {}
   ): Promise<Array<RoomEvent<T>>> {
     return (await this.matrixWidgetApi.readRoomEvents(
       eventType,
-      Number.MAX_SAFE_INTEGER,
+      typeof limit === 'number' ? limit : 1000,
       messageType,
-      typeof roomIds === 'string' ? [Symbols.AnyRoom] : roomIds
+      typeof roomIds === 'string' ? [Symbols.AnyRoom] : roomIds,
+      since
     )) as RoomEvent<T>[];
   }
 

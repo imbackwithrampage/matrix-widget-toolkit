@@ -20,6 +20,7 @@ import {
   IModalWidgetOpenRequestDataButton,
   IModalWidgetReturnData,
   IOpenIDCredentials,
+  IRoomAccountData,
   IRoomEvent,
   IWidget,
   IWidgetApiRequest,
@@ -83,8 +84,8 @@ export type WidgetParameters = {
  * Generic type for state events.
  */
 export type StateEvent<T = unknown> = Omit<
-  IRoomEvent,
-  'content' | 'unsigned' | 'state_key'
+    IRoomEvent,
+    'content' | 'unsigned' | 'state_key'
 > & {
   state_key: string;
   content: T;
@@ -94,8 +95,18 @@ export type StateEvent<T = unknown> = Omit<
  * Generic type for room events.
  */
 export type RoomEvent<T = unknown> = Omit<
-  IRoomEvent,
-  'content' | 'state_key' | 'unsigned'
+    IRoomEvent,
+    'content' | 'state_key' | 'unsigned'
+> & {
+  content: T;
+};
+
+/**
+ * Generic type for room account data.
+ */
+export type RoomAccountData<T = unknown> = Omit<
+    IRoomAccountData,
+    'content' | 'unsigned'
 > & {
   content: T;
 };
@@ -319,9 +330,20 @@ export type WidgetApi = {
    *                  Pass `Symbols.AnyRoom` to receive from all rooms of the
    *                  user.
    */
+
+  receiveRoomAccountData<T>(
+      eventType: string,
+      options?: { roomIds?: string[] | Symbols.AnyRoom }
+  ): Promise<Array<RoomAccountData<T>>>;
+
   receiveRoomEvents<T>(
-    eventType: string,
-    options?: { messageType?: string; roomIds?: string[] | Symbols.AnyRoom }
+      eventType: string,
+      options?: {
+        messageType?: string;
+        limit?: number;
+        roomIds?: string[] | Symbols.AnyRoom;
+        since?: string | undefined;
+      }
   ): Promise<Array<RoomEvent<T>>>;
 
   /**
