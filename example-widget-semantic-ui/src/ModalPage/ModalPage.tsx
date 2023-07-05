@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
 import { ModalButtonKind } from '@beeper/matrix-widget-api';
+import { useWidgetApi } from '@matrix-widget-toolkit/react';
 import { ReactElement, useCallback, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container, Divider, Icon, Segment } from 'semantic-ui-react';

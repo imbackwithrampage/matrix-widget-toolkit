@@ -14,12 +14,15 @@
  * limitations under the License.
  */
 
+import {
+  EventDirection,
+  WidgetEventCapability,
+} from '@beeper/matrix-widget-api';
 import { WidgetApiMockProvider } from '@matrix-widget-toolkit/react';
 import { MockedWidgetApi, mockWidgetApi } from '@matrix-widget-toolkit/testing';
 import { render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
-import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { ComponentType, PropsWithChildren } from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import { StoreProvider } from '../store';

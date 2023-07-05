@@ -14,8 +14,11 @@
  * limitations under the License.
  */
 
+import {
+  EventDirection,
+  WidgetEventCapability,
+} from '@beeper/matrix-widget-api';
 import { WidgetApiImpl } from '@matrix-widget-toolkit/api';
-import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { App } from './App';

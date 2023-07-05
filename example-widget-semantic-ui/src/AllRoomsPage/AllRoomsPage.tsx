@@ -15,17 +15,17 @@
  */
 
 import {
+  EventDirection,
+  Symbols,
+  WidgetEventCapability,
+} from '@beeper/matrix-widget-api';
+import {
   generateRoomTimelineCapabilities,
   navigateToRoom,
   WIDGET_CAPABILITY_NAVIGATE,
 } from '@matrix-widget-toolkit/api';
 import { useWidgetApi } from '@matrix-widget-toolkit/react';
 import { SemanticUiCapabilitiesGuard } from '@matrix-widget-toolkit/semantic-ui';
-import {
-  EventDirection,
-  Symbols,
-  WidgetEventCapability,
-} from '@beeper/matrix-widget-api';
 import { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
 import { useAsyncRetry } from 'react-use';

@@ -15,6 +15,10 @@
  */
 
 import {
+  EventDirection,
+  WidgetEventCapability,
+} from '@beeper/matrix-widget-api';
+import {
   getRoomMemberDisplayName,
   hasActionPower,
   hasRoomEventPower,
@@ -44,7 +48,6 @@ import {
 } from '@mui/material';
 import { unstable_useId as useId } from '@mui/utils';
 import { first } from 'lodash';
-import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { ReactElement, useEffect, useState } from 'react';
 import { STATE_EVENT_ROOM_NAME } from '../events';
 import { NavigationBar } from '../NavigationPage';

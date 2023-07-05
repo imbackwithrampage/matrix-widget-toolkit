@@ -14,10 +14,13 @@
  * limitations under the License.
  */
 
+import {
+  EventDirection,
+  WidgetEventCapability,
+} from '@beeper/matrix-widget-api';
 import { MuiCapabilitiesGuard } from '@matrix-widget-toolkit/mui';
 import { useWidgetApi } from '@matrix-widget-toolkit/react';
 import { Box, Button, Card, CardHeader } from '@mui/material';
-import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { ReactElement, useMemo } from 'react';
 import { useObservable } from 'react-use';
 import { filter, map } from 'rxjs';

@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+import { MatrixCapabilities } from '@beeper/matrix-widget-api';
 import {
   ElementAvatar,
   MuiCapabilitiesGuard,
@@ -38,7 +39,6 @@ import {
 } from '@mui/material';
 import { unstable_useId as useId } from '@mui/utils';
 import { isError } from 'lodash';
-import { MatrixCapabilities } from '@beeper/matrix-widget-api';
 import { ReactElement, useEffect, useState } from 'react';
 import { NavigationBar } from '../NavigationPage';
 
