@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/semantic-ui`
 
+## 1.0.7
+
+### Patch Changes
+
+- 2524e2f: Add room account data and improve message fetching
+
 ## 1.0.6
 
 ### Patch Changes

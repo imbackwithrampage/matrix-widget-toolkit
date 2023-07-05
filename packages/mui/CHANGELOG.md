@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/mui`
 
+## 1.2.0
+
+### Minor Changes
+
+- 2524e2f: Add room account data and improve message fetching
+
 ## 1.1.4
 
 ### Patch Changes

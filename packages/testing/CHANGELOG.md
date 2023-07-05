@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/testing`
 
+## 2.3.2
+
+### Patch Changes
+
+- 2524e2f: Add room account data and improve message fetching
+
 ## 2.3.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/api`
 
+## 3.3.0
+
+### Minor Changes
+
+- 2524e2f: Add room account data and improve message fetching
+
 ## 3.2.1
 
 ### Patch Changes

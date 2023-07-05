@@ -1,6 +1,6 @@
 {
   "name": "@beeper/matrix-widget-toolkit-testing",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "Testing support for @matrix-widget-toolkit/api.",
   "author": "Nordeck IT + Consulting GmbH",
   "license": "Apache-2.0",
