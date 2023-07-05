@@ -7,7 +7,7 @@
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
   "ignore": [
-    "@matrix-widget-toolkit/example-widget-semantic-ui",
-    "@matrix-widget-toolkit/example-widget-mui"
+    "@beeper/matrix-widget-toolkit-example-widget-semantic-ui",
+    "@beeper/matrix-widget-toolkit-example-widget-mui"
   ]
 }
