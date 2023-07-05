@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/react`
 
+## 1.0.6
+
+### Patch Changes
+
+- 45dcb37: Bump version for publishing
+
 ## 1.0.5
 
 ### Patch Changes
