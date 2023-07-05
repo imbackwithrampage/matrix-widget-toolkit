@@ -1,5 +1,13 @@
 # `@matrix-widget-toolkit/react`
 
+## 1.0.8
+
+### Patch Changes
+
+- Bump versions to re-deploy to npm
+- Updated dependencies
+  - @beeper/matrix-widget-toolkit-api@3.3.1
+
 ## 1.0.7
 
 ### Patch Changes

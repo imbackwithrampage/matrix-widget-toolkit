@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/api`
 
+## 3.3.1
+
+### Patch Changes
+
+- Bump versions to re-deploy to npm
+
 ## 3.3.0
 
 ### Minor Changes

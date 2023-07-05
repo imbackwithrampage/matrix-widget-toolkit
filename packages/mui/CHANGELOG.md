@@ -1,5 +1,14 @@
 # `@matrix-widget-toolkit/mui`
 
+## 1.2.1
+
+### Patch Changes
+
+- Bump versions to re-deploy to npm
+- Updated dependencies
+  - @beeper/matrix-widget-toolkit-api@3.3.1
+  - @beeper/matrix-widget-toolkit-react@1.0.8
+
 ## 1.2.0
 
 ### Minor Changes

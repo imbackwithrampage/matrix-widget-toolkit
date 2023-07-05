@@ -1,5 +1,13 @@
 # `@matrix-widget-toolkit/testing`
 
+## 2.3.3
+
+### Patch Changes
+
+- Bump versions to re-deploy to npm
+- Updated dependencies
+  - @beeper/matrix-widget-toolkit-api@3.3.1
+
 ## 2.3.2
 
 ### Patch Changes

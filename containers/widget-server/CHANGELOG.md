@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/widget-server`
 
+## 1.0.4
+
+### Patch Changes
+
+- Bump versions to re-deploy to npm
+
 ## 1.0.3
 
 ### Patch Changes
