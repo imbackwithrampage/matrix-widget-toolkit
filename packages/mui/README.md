@@ -22,7 +22,7 @@ yarn add @matrix-widget-toolkit/mui @mui/material
 Now you can use it in your application:
 
 ```tsx
-import { WidgetApiImpl } from '@matrix-widget-toolkit/api';
+import { WidgetApiImpl } from '@beeper/matrix-widget-toolkit-api';
 import {
   MuiThemeProvider,
   MuiWidgetApiProvider,

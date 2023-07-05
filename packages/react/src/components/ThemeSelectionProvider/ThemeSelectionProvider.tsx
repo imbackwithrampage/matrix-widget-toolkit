@@ -18,7 +18,7 @@ import {
   extractWidgetApiParameters,
   extractWidgetParameters,
   parseWidgetId,
-} from '@matrix-widget-toolkit/api';
+} from '@beeper/matrix-widget-toolkit-api';
 import {
   createContext,
   PropsWithChildren,

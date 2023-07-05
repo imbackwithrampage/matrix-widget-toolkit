@@ -18,14 +18,14 @@ import {
   generateWidgetRegistrationUrl as generateWidgetRegistrationUrlMocked,
   repairWidgetRegistration as repairWidgetRegistrationMocked,
   WidgetApi,
-} from '@matrix-widget-toolkit/api';
-import { WidgetApiMockProvider } from '@matrix-widget-toolkit/react';
+} from '@beeper/matrix-widget-toolkit-api';
+import { WidgetApiMockProvider } from '@beeper/matrix-widget-toolkit-react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { ReactNode } from 'react';
 import { MissingParametersError } from './MissingParametersError';
 
-jest.mock('@matrix-widget-toolkit/api');
+jest.mock('@beeper/matrix-widget-toolkit-api');
 
 const repairWidgetRegistration = jest.mocked(repairWidgetRegistrationMocked);
 const generateWidgetRegistrationUrl = jest.mocked(

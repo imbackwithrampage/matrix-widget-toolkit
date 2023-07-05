@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { useThemeSelection } from '@matrix-widget-toolkit/react';
+import { useThemeSelection } from '@beeper/matrix-widget-toolkit-react';
 import React, { ReactElement, useLayoutEffect } from 'react';
 import 'semantic-ui-less/semantic.less';
 import 'semantic-ui-less/semantic.less?theme=dark';

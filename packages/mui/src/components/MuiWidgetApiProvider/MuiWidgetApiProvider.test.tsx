@@ -18,11 +18,11 @@ import {
   extractWidgetParameters as extractWidgetParametersMocked,
   hasRequiredWidgetParameters as hasRequiredWidgetParametersMocked,
   WidgetApi,
-} from '@matrix-widget-toolkit/api';
+} from '@beeper/matrix-widget-toolkit-api';
 import { render, screen } from '@testing-library/react';
 import { MuiWidgetApiProvider } from './MuiWidgetApiProvider';
 
-jest.mock('@matrix-widget-toolkit/api');
+jest.mock('@beeper/matrix-widget-toolkit-api');
 
 const hasRequiredWidgetParameters = jest.mocked(
   hasRequiredWidgetParametersMocked

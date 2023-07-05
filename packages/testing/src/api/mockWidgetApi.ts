@@ -23,7 +23,7 @@ import {
   StateEvent,
   ToDeviceMessageEvent,
   WidgetApi,
-} from '@matrix-widget-toolkit/api';
+} from '@beeper/matrix-widget-toolkit-api';
 import { cloneDeep, isEqual, uniqueId } from 'lodash';
 import { Symbols } from '@beeper/matrix-widget-api';
 import { concat, filter, from, map, NEVER, of, Subject, takeUntil } from 'rxjs';

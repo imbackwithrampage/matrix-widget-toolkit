@@ -18,7 +18,7 @@ import {
   extractWidgetApiParameters as extractWidgetApiParametersMocked,
   extractWidgetParameters as extractWidgetParametersMocked,
   parseWidgetId as parseWidgetIdMocked,
-} from '@matrix-widget-toolkit/api';
+} from '@beeper/matrix-widget-toolkit-api';
 import { render, screen } from '@testing-library/react';
 import { act, renderHook } from '@testing-library/react-hooks';
 import {
@@ -26,7 +26,7 @@ import {
   useThemeSelection,
 } from './ThemeSelectionProvider';
 
-jest.mock('@matrix-widget-toolkit/api');
+jest.mock('@beeper/matrix-widget-toolkit-api');
 
 const extractWidgetApiParameters = jest.mocked(
   extractWidgetApiParametersMocked

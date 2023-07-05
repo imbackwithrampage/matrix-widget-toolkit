@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { redactEvent, StateEvent } from '@matrix-widget-toolkit/api';
+import { redactEvent, StateEvent } from '@beeper/matrix-widget-toolkit-api';
 import { Symbols } from '@beeper/matrix-widget-api';
 import { bufferTime, firstValueFrom, Observable, take } from 'rxjs';
 import { MockedWidgetApi, mockWidgetApi } from './mockWidgetApi';

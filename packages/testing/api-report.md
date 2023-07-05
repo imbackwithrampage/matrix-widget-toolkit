@@ -6,10 +6,10 @@
 
 /// <reference types="jest" />
 
-import { RoomEvent } from '@matrix-widget-toolkit/api';
-import { StateEvent } from '@matrix-widget-toolkit/api';
-import { ToDeviceMessageEvent } from '@matrix-widget-toolkit/api';
-import { WidgetApi } from '@matrix-widget-toolkit/api';
+import { RoomEvent } from '@beeper/matrix-widget-toolkit-api';
+import { StateEvent } from '@beeper/matrix-widget-toolkit-api';
+import { ToDeviceMessageEvent } from '@beeper/matrix-widget-toolkit-api';
+import { WidgetApi } from '@beeper/matrix-widget-toolkit-api';
 
 // @public
 export type MockedWidgetApi = {

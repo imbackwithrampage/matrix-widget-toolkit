@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { generateWidgetRegistrationUrl } from '@matrix-widget-toolkit/api';
+import { generateWidgetRegistrationUrl } from '@beeper/matrix-widget-toolkit-api';
 import { ReactElement } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container, Icon, Message } from 'semantic-ui-react';

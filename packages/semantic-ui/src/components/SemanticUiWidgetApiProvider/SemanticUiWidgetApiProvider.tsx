@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { WidgetApi, WidgetRegistration } from '@matrix-widget-toolkit/api';
-import { WidgetApiProvider } from '@matrix-widget-toolkit/react';
+import { WidgetApi, WidgetRegistration } from '@beeper/matrix-widget-toolkit-api';
+import { WidgetApiProvider } from '@beeper/matrix-widget-toolkit-react';
 import { PropsWithChildren, ReactElement } from 'react';
 import { LoadingView } from '../LoadingView';
 import { MissingCapabilitiesError } from '../MissingCapabilitiesError';

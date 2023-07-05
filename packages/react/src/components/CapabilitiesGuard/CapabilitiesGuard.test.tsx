@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { WidgetApi } from '@matrix-widget-toolkit/api';
+import { WidgetApi } from '@beeper/matrix-widget-toolkit-api';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { ComponentType, DispatchWithoutAction, ReactNode } from 'react';

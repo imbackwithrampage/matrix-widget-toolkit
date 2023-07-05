@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-import { useThemeSelection as useThemeSelectionMocked } from '@matrix-widget-toolkit/react';
+import { useThemeSelection as useThemeSelectionMocked } from '@beeper/matrix-widget-toolkit-react';
 import { render } from '@testing-library/react';
 import { ThemeSwitcher } from './ThemeSwitcher';
 
-jest.mock('@matrix-widget-toolkit/react');
+jest.mock('@beeper/matrix-widget-toolkit-react');
 
 const useThemeSelection = useThemeSelectionMocked as jest.Mock;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { extractWidgetParameters } from '@matrix-widget-toolkit/api';
+import { extractWidgetParameters } from '@beeper/matrix-widget-toolkit-api';
 import LanguageDetector, {
   CustomDetector,
 } from 'i18next-browser-languagedetector';

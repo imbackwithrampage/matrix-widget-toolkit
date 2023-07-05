@@ -32,8 +32,8 @@
     "generate-api-report": "tsc && api-extractor run --verbose --local"
   },
   "dependencies": {
-    "@matrix-widget-toolkit/api": "^3.2.0",
     "@beeper/matrix-widget-api": "^1.5.0",
+    "@beeper/matrix-widget-toolkit-api": "^3.3.0",
     "react": "^17.0.2",
     "react-error-boundary": "^3.1.4",
     "react-use": "^17.4.0"

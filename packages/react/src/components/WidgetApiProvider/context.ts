@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { WidgetApi } from '@matrix-widget-toolkit/api';
+import { WidgetApi } from '@beeper/matrix-widget-toolkit-api';
 import { createContext, useContext } from 'react';
 
 export const WidgetApiContext = createContext<WidgetApi | undefined>(undefined);

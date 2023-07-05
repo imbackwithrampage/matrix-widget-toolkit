@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { generateWidgetRegistrationUrl } from '@matrix-widget-toolkit/api';
+import { generateWidgetRegistrationUrl } from '@beeper/matrix-widget-toolkit-api';
 import ErrorIcon from '@mui/icons-material/Error';
 import { Alert, AlertTitle, Box, Typography } from '@mui/material';
 import { ReactElement } from 'react';

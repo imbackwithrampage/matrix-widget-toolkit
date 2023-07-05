@@ -19,7 +19,7 @@ import '@fontsource/inter/600.css';
 import {
   ThemeSelectionProvider,
   useThemeSelection,
-} from '@matrix-widget-toolkit/react';
+} from '@beeper/matrix-widget-toolkit-react';
 import {
   createTheme,
   CssBaseline,

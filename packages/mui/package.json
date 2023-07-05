@@ -38,6 +38,8 @@
     "generate-api-report": "tsc && api-extractor run --verbose --local"
   },
   "dependencies": {
+    "@beeper/matrix-widget-toolkit-api": "^3.3.0",
+    "@beeper/matrix-widget-toolkit-react": "^1.0.5",
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -45,8 +47,6 @@
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.4",
     "@mui/utils": "^5.13.1",
-    "@matrix-widget-toolkit/api": "^3.2.1",
-    "@matrix-widget-toolkit/react": "^1.0.5",
     "i18next": "^22.5.1",
     "i18next-browser-languagedetector": "^7.0.2",
     "i18next-resources-to-backend": "^1.1.3",

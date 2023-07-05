@@ -18,8 +18,8 @@ import {
   generateWidgetRegistrationUrl,
   repairWidgetRegistration,
   WidgetRegistration,
-} from '@matrix-widget-toolkit/api';
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
+} from '@beeper/matrix-widget-toolkit-api';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
 import { ReactElement, useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {

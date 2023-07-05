@@ -13,9 +13,9 @@ import { FallbackProps } from 'react-error-boundary';
 import { PropsWithChildren } from 'react';
 import { Provider } from 'react';
 import { ReactElement } from 'react';
-import { WidgetApi } from '@matrix-widget-toolkit/api';
+import { WidgetApi } from '@beeper/matrix-widget-toolkit-api';
 import { WidgetEventCapability } from '@beeper/matrix-widget-api';
-import { WidgetRegistration } from '@matrix-widget-toolkit/api';
+import { WidgetRegistration } from '@beeper/matrix-widget-toolkit-api';
 
 // @public
 export function CapabilitiesGuard({ capabilities, children, missingCapabilitiesComponent: MissingCapabilitiesComponent, loadingComponent: LoadingComponent, }: CapabilitiesGuardProps): ReactElement;

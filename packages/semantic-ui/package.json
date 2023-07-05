@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "@fontsource/lato": "^5.0.2",
-    "@matrix-widget-toolkit/api": "^3.2.1",
-    "@matrix-widget-toolkit/react": "^1.0.5",
+    "@beeper/matrix-widget-toolkit-api": "^3.3.0",
+    "@beeper/matrix-widget-toolkit-react": "^1.0.5",
     "i18next": "^22.5.1",
     "i18next-browser-languagedetector": "^7.0.2",
     "i18next-resources-to-backend": "^1.1.3",

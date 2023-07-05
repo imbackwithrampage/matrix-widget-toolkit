@@ -22,7 +22,7 @@ Prefer using [`@matrix-widget-toolkit/mui`](../mui/) or [`@matrix-widget-toolkit
 Once the Widget API is provided to React components, use the `useWidgetApi` hook to access it:
 
 ```typescript
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
 
 const widgetApi = useWidgetApi();
 ```
@@ -33,7 +33,7 @@ Most of the time you will use `<MuiWidgetApiProvider>` to initialize and provide
 However, if you want to mock it in tests, you can use `<WidgetApiMockProvider>` to provide a mocked version:
 
 ```tsx
-import { WidgetApiMockProvider } from '@matrix-widget-toolkit/react';
+import { WidgetApiMockProvider } from '@beeper/matrix-widget-toolkit-react';
 
 <WidgetApiMockProvider value={widgetApi}>
   /* Your child components */

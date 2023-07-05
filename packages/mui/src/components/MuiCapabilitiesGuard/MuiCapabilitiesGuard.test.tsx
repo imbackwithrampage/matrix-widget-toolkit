@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { WidgetApi } from '@matrix-widget-toolkit/api';
-import { WidgetApiMockProvider } from '@matrix-widget-toolkit/react';
+import { WidgetApi } from '@beeper/matrix-widget-toolkit-api';
+import { WidgetApiMockProvider } from '@beeper/matrix-widget-toolkit-react';
 import { render, screen } from '@testing-library/react';
 import { axe } from 'jest-axe';
 import { ReactNode } from 'react';
