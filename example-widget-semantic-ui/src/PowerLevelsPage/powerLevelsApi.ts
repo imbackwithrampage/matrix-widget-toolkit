@@ -21,7 +21,7 @@ import {
   STATE_EVENT_POWER_LEVELS,
 } from '@matrix-widget-toolkit/api';
 import { first, isError } from 'lodash';
-import { EventDirection, WidgetEventCapability } from 'matrix-widget-api';
+import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { baseApi, ThunkExtraArgument } from '../store';
 
 /**

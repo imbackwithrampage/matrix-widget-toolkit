@@ -8,7 +8,7 @@
 
 import { AvatarProps } from '@mui/material';
 import { BackendModule } from 'i18next';
-import { Capability } from 'matrix-widget-api';
+import { Capability } from '@beeper/matrix-widget-api';
 import { CommonProps } from '@mui/material/OverridableComponent';
 import { ForwardRefExoticComponent } from 'react';
 import LanguageDetector from 'i18next-browser-languagedetector';
@@ -16,7 +16,7 @@ import { PropsWithChildren } from 'react';
 import { ReactElement } from 'react';
 import { RefAttributes } from 'react';
 import { WidgetApi } from '@matrix-widget-toolkit/api';
-import { WidgetEventCapability } from 'matrix-widget-api';
+import { WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { WidgetRegistration } from '@matrix-widget-toolkit/api';
 
 // @public

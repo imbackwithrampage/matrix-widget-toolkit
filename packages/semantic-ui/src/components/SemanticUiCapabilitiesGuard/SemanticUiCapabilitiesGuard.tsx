@@ -15,7 +15,7 @@
  */
 
 import { CapabilitiesGuard } from '@matrix-widget-toolkit/react';
-import { Capability, WidgetEventCapability } from 'matrix-widget-api';
+import { Capability, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { PropsWithChildren, ReactElement } from 'react';
 import { LoadingView } from '../LoadingView';
 import { MissingCapabilitiesError } from '../MissingCapabilitiesError';

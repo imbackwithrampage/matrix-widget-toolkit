@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { Capability, WidgetEventCapability } from 'matrix-widget-api';
+import { Capability, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import {
   ComponentType,
   DispatchWithoutAction,

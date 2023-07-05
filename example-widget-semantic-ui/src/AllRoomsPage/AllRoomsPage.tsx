@@ -25,7 +25,7 @@ import {
   EventDirection,
   Symbols,
   WidgetEventCapability,
-} from 'matrix-widget-api';
+} from '@beeper/matrix-widget-api';
 import { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
 import { useAsyncRetry } from 'react-use';

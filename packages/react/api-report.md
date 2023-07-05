@@ -6,7 +6,7 @@
 
 /// <reference types="react" />
 
-import { Capability } from 'matrix-widget-api';
+import { Capability } from '@beeper/matrix-widget-api';
 import { ComponentType } from 'react';
 import { DispatchWithoutAction } from 'react';
 import { FallbackProps } from 'react-error-boundary';
@@ -14,7 +14,7 @@ import { PropsWithChildren } from 'react';
 import { Provider } from 'react';
 import { ReactElement } from 'react';
 import { WidgetApi } from '@matrix-widget-toolkit/api';
-import { WidgetEventCapability } from 'matrix-widget-api';
+import { WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { WidgetRegistration } from '@matrix-widget-toolkit/api';
 
 // @public

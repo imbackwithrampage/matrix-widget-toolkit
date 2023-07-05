@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { Symbols } from 'matrix-widget-api';
+import { Symbols } from '@beeper/matrix-widget-api';
 
 /**
  * Generate a list of capabilities to access the timeline of other rooms.

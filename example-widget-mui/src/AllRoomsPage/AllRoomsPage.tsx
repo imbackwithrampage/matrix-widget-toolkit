@@ -40,7 +40,7 @@ import {
   EventDirection,
   Symbols,
   WidgetEventCapability,
-} from 'matrix-widget-api';
+} from '@beeper/matrix-widget-api';
 import { ReactElement } from 'react';
 import { useAsyncRetry } from 'react-use';
 import {

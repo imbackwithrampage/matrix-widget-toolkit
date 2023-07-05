@@ -23,7 +23,7 @@ import {
   WidgetApi as MatrixWidgetApi,
   WidgetApiToWidgetAction,
   WidgetEventCapability,
-} from 'matrix-widget-api';
+} from '@beeper/matrix-widget-api';
 import { firstValueFrom, ReplaySubject, take, toArray } from 'rxjs';
 import { parseWidgetId as parseWidgetIdMocked } from './parameters';
 import { ToDeviceMessageEvent } from './types';

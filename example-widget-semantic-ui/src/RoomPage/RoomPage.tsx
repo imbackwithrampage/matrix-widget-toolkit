@@ -16,7 +16,7 @@
 
 import { useWidgetApi } from '@matrix-widget-toolkit/react';
 import { SemanticUiCapabilitiesGuard } from '@matrix-widget-toolkit/semantic-ui';
-import { EventDirection, WidgetEventCapability } from 'matrix-widget-api';
+import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { ReactElement, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useObservable } from 'react-use';

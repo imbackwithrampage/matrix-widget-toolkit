@@ -33,7 +33,7 @@ You can request additional capabilities at any time using `requestCapabilities()
 A call returns a promise that resolves once the user approved the capabilities.
 
 ```typescript
-import { WidgetEventCapability } from 'matrix-widget-api';
+import { WidgetEventCapability } from '@beeper/matrix-widget-api';
 
 await widgetApi.requestCapabilities([
   WidgetEventCapability.forStateEvent(

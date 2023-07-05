@@ -15,7 +15,7 @@
  */
 
 import { redactEvent, StateEvent } from '@matrix-widget-toolkit/api';
-import { Symbols } from 'matrix-widget-api';
+import { Symbols } from '@beeper/matrix-widget-api';
 import { bufferTime, firstValueFrom, Observable, take } from 'rxjs';
 import { MockedWidgetApi, mockWidgetApi } from './mockWidgetApi';
 

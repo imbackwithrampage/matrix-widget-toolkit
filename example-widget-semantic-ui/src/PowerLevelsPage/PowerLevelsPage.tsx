@@ -26,7 +26,7 @@ import {
 import { useWidgetApi } from '@matrix-widget-toolkit/react';
 import { SemanticUiCapabilitiesGuard } from '@matrix-widget-toolkit/semantic-ui';
 import { first } from 'lodash';
-import { EventDirection, WidgetEventCapability } from 'matrix-widget-api';
+import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { ReactElement, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {

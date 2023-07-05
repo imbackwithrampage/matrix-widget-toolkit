@@ -18,7 +18,7 @@ import { WidgetApiMockProvider } from '@matrix-widget-toolkit/react';
 import { MockedWidgetApi, mockWidgetApi } from '@matrix-widget-toolkit/testing';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { EventDirection, WidgetEventCapability } from 'matrix-widget-api';
+import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { ComponentType, PropsWithChildren } from 'react';
 import { MemoryRouter } from 'react-router-dom';
 import { RoomPage } from './RoomPage';

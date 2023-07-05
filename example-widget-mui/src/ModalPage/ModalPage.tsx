@@ -16,7 +16,7 @@
 
 import { useWidgetApi } from '@matrix-widget-toolkit/react';
 import { Alert, AlertTitle, Box, Button } from '@mui/material';
-import { ModalButtonKind } from 'matrix-widget-api';
+import { ModalButtonKind } from '@beeper/matrix-widget-api';
 import { ReactElement, useCallback, useState } from 'react';
 import { NavigationBar } from '../NavigationPage';
 import {

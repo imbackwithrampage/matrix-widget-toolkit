@@ -24,7 +24,7 @@ import {
   CardContent,
   Typography,
 } from '@mui/material';
-import { EventDirection, WidgetEventCapability } from 'matrix-widget-api';
+import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { ReactElement, useEffect, useState } from 'react';
 import { filter, map } from 'rxjs';
 import {

@@ -46,7 +46,7 @@ import {
   unstable_useId as useId,
 } from '@mui/material';
 import { isError } from 'lodash';
-import { EventDirection, WidgetEventCapability } from 'matrix-widget-api';
+import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 import { FormEvent, ReactElement, ReactNode, useMemo, useState } from 'react';
 import { useObservable } from 'react-use';
 import { filter, map } from 'rxjs';

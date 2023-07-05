@@ -30,7 +30,7 @@ import {
   WidgetApi as MatrixWidgetApi,
   WidgetApiToWidgetAction,
   WidgetEventCapability,
-} from 'matrix-widget-api';
+} from '@beeper/matrix-widget-api';
 import {
   concat,
   filter,

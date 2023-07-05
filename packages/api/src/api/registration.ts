@@ -18,7 +18,7 @@ import {
   EventDirection,
   IWidget,
   WidgetEventCapability,
-} from 'matrix-widget-api';
+} from '@beeper/matrix-widget-api';
 import { extractRawWidgetParameters } from './parameters';
 import { WidgetApi, WidgetParameters, WidgetRegistration } from './types';
 

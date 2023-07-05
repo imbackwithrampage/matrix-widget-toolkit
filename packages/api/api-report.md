@@ -4,20 +4,20 @@
 
 ```ts
 
-import { Capability } from 'matrix-widget-api';
-import { IModalWidgetCreateData } from 'matrix-widget-api';
-import { IModalWidgetOpenRequestDataButton } from 'matrix-widget-api';
-import { IModalWidgetReturnData } from 'matrix-widget-api';
-import { IOpenIDCredentials } from 'matrix-widget-api';
-import { IRoomEvent } from 'matrix-widget-api';
-import { IWidget } from 'matrix-widget-api';
-import { IWidgetApiRequest } from 'matrix-widget-api';
-import { IWidgetApiRequestData } from 'matrix-widget-api';
-import { ModalButtonID } from 'matrix-widget-api';
+import { Capability } from '@beeper/matrix-widget-api';
+import { IModalWidgetCreateData } from '@beeper/matrix-widget-api';
+import { IModalWidgetOpenRequestDataButton } from '@beeper/matrix-widget-api';
+import { IModalWidgetReturnData } from '@beeper/matrix-widget-api';
+import { IOpenIDCredentials } from '@beeper/matrix-widget-api';
+import { IRoomEvent } from '@beeper/matrix-widget-api';
+import { IWidget } from '@beeper/matrix-widget-api';
+import { IWidgetApiRequest } from '@beeper/matrix-widget-api';
+import { IWidgetApiRequestData } from '@beeper/matrix-widget-api';
+import { ModalButtonID } from '@beeper/matrix-widget-api';
 import { Observable } from 'rxjs';
-import { Symbols } from 'matrix-widget-api';
-import { WidgetApi as WidgetApi_2 } from 'matrix-widget-api';
-import { WidgetEventCapability } from 'matrix-widget-api';
+import { Symbols } from '@beeper/matrix-widget-api';
+import { WidgetApi as WidgetApi_2 } from '@beeper/matrix-widget-api';
+import { WidgetEventCapability } from '@beeper/matrix-widget-api';
 
 // @public
 export function calculateUserPowerLevel(powerLevelStateEvent: PowerLevelsStateEvent, userId?: string): number;

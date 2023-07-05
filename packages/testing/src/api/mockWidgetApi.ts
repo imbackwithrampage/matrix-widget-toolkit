@@ -25,7 +25,7 @@ import {
   WidgetApi,
 } from '@matrix-widget-toolkit/api';
 import { cloneDeep, isEqual, uniqueId } from 'lodash';
-import { Symbols } from 'matrix-widget-api';
+import { Symbols } from '@beeper/matrix-widget-api';
 import { concat, filter, from, map, NEVER, of, Subject, takeUntil } from 'rxjs';
 
 /**

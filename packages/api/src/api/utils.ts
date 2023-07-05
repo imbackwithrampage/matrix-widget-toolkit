@@ -19,7 +19,7 @@ import {
   IRoomEvent,
   Symbols,
   WidgetEventCapability,
-} from 'matrix-widget-api';
+} from '@beeper/matrix-widget-api';
 
 export function convertToRawCapabilities(
   rawCapabilities: Array<WidgetEventCapability | Capability>

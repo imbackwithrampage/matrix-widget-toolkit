@@ -27,7 +27,7 @@ import {
   ModalButtonID,
   Symbols,
   WidgetEventCapability,
-} from 'matrix-widget-api';
+} from '@beeper/matrix-widget-api';
 import { Observable } from 'rxjs';
 
 /**

@@ -63,7 +63,7 @@ You can hide child components till the user has approved all required capabiliti
 
 ```tsx
 import { MuiCapabilitiesGuard } from '@matrix-widget-toolkit/mui';
-import { EventDirection, WidgetEventCapability } from 'matrix-widget-api';
+import { EventDirection, WidgetEventCapability } from '@beeper/matrix-widget-api';
 
 <MuiCapabilitiesGuard
   capabilities={[
