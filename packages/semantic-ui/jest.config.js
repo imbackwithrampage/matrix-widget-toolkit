@@ -14,7 +14,7 @@ module.exports = {
   // Allow imports from other packages in this repository.
   moduleNameMapper: {
     // Allow imports of 'semantic-ui-less/semantic.less?theme=<light|dark>'.
-    '@matrix-widget-toolkit/(.*)': '<rootDir>/../$1/src/index.ts',
+    '@beeper/matrix-widget-toolkit-(.*)': '<rootDir>/../$1/src/index.ts',
     // Allow imports of 'semantic-ui-less/semantic.less?theme=<light|dark>'.
     'semantic-ui-less/semantic.less(.+)': 'semantic-ui-less/semantic.less',
   },

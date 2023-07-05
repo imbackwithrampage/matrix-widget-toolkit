@@ -200,6 +200,7 @@ export function mockWidgetApi(opts?: {
       isOpenedByClient: true,
     },
     openModal: jest.fn().mockResolvedValue(undefined),
+    receiveRoomAccountData: jest.fn(),
     receiveRoomEvents: jest.fn(),
     receiveStateEvents: jest.fn(),
     receiveSingleStateEvent: jest.fn(),

@@ -1934,77 +1934,6 @@
     globby "^11.0.0"
     read-yaml-file "^1.1.0"
 
-"@matrix-widget-toolkit/api@3.2.1", "@matrix-widget-toolkit/api@^3.2.0", "@matrix-widget-toolkit/api@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@matrix-widget-toolkit/api/-/api-3.2.1.tgz#f32d0a618243bf52fa8dfd11cbe330fb8ef7fd49"
-  integrity sha512-oSeccnRHjXCw7i8PGtPcq4ufZySjvUmgR98tq8fIecKEiIrmlQru81975XrnjyE5u99d55FMoV4oTaVIJaXPdw==
-  dependencies:
-    matrix-widget-api "^1.3.1"
-    qs "^6.11.2"
-    rxjs "^7.8.1"
-
-"@matrix-widget-toolkit/mui@1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@matrix-widget-toolkit/mui/-/mui-1.1.4.tgz#3d496539bc7b4e7eebcb72f397d0fe94acab17d1"
-  integrity sha512-7X0+JLNmy1ljMV4I3ZtJLpmC6dhRk6y7Mf3R4/okAgbNq9xDU+KdKuABlr1Mk+mFNBmUzaa8CzYN6i9LlZ2/EQ==
-  dependencies:
-    "@emotion/cache" "^11.11.0"
-    "@emotion/react" "^11.11.1"
-    "@emotion/styled" "^11.11.0"
-    "@fontsource/inter" "^5.0.2"
-    "@matrix-widget-toolkit/api" "^3.2.1"
-    "@matrix-widget-toolkit/react" "^1.0.5"
-    "@mui/icons-material" "^5.11.16"
-    "@mui/material" "^5.13.4"
-    "@mui/utils" "^5.13.1"
-    i18next "^22.5.1"
-    i18next-browser-languagedetector "^7.0.2"
-    i18next-resources-to-backend "^1.1.3"
-    lodash "^4.17.21"
-    matrix-widget-api "^1.3.1"
-    react "^17.0.2"
-    react-i18next "^12.3.1"
-    react-use "^17.4.0"
-
-"@matrix-widget-toolkit/react@1.0.5", "@matrix-widget-toolkit/react@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@matrix-widget-toolkit/react/-/react-1.0.5.tgz#65c0af604649d98d57fcb887da46085aa3c19d10"
-  integrity sha512-K6gcF3gKkrUt/LHwhSqqyICS9PyjDPaGlfenFzq7WG5rNJHKT8cWgxSWsZQ3M5PTLFkOdgRxAKieG9sfQm6i9A==
-  dependencies:
-    "@matrix-widget-toolkit/api" "^3.2.0"
-    matrix-widget-api "^1.3.1"
-    react "^17.0.2"
-    react-error-boundary "^3.1.4"
-    react-use "^17.4.0"
-
-"@matrix-widget-toolkit/semantic-ui@1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@matrix-widget-toolkit/semantic-ui/-/semantic-ui-1.0.6.tgz#6f4c55192e3cb87b683154398640d60f7973e749"
-  integrity sha512-AMH0rGhNl178ypAl7+Gj4ws/iYy5pr8QjgZGZDZYGMaip+bSurLdqr0Ez0vNrZSYwhtUtBKlVwEppcpcfuvu/g==
-  dependencies:
-    "@fontsource/lato" "^5.0.2"
-    "@matrix-widget-toolkit/api" "^3.2.1"
-    "@matrix-widget-toolkit/react" "^1.0.5"
-    i18next "^22.5.1"
-    i18next-browser-languagedetector "^7.0.2"
-    i18next-resources-to-backend "^1.1.3"
-    matrix-widget-api "^1.3.1"
-    react "^17.0.2"
-    react-i18next "^12.3.1"
-    react-use "^17.4.0"
-    semantic-ui-less "^2.5.0"
-    semantic-ui-react "^2.1.4"
-
-"@matrix-widget-toolkit/testing@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@matrix-widget-toolkit/testing/-/testing-2.3.1.tgz#378c61a05c4f8dbf1acdd79f2e89021286d96b8d"
-  integrity sha512-yUiYUD+ipZYL9mjCFCW0AukDqMj9bf+c0XFGY17/ugceSCDs0G+4sm+ph7pudXO26Rz0IZCdgiGvsLoafrGI6w==
-  dependencies:
-    "@matrix-widget-toolkit/api" "^3.2.1"
-    lodash "^4.17.21"
-    matrix-widget-api "^1.3.1"
-    rxjs "^7.8.1"
-
 "@microsoft/api-extractor-model@7.27.2":
   version "7.27.2"
   resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.27.2.tgz#0146571e8bdab1e014e68cd50870c9270f5d379e"
@@ -8261,14 +8190,6 @@ matcher-collection@^2.0.0:
   dependencies:
     "@types/minimatch" "^3.0.3"
     minimatch "^3.0.2"
-
-matrix-widget-api@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/matrix-widget-api/-/matrix-widget-api-1.3.1.tgz#e38f404c76bb15c113909505c1c1a5b4d781c2f5"
-  integrity sha512-+rN6vGvnXm+fn0uq9r2KWSL/aPtehD6ObC50jYmUcEfgo8CUpf9eUurmjbRlwZkWq3XHXFuKQBUCI9UzqWg37Q==
-  dependencies:
-    "@types/events" "^3.0.0"
-    events "^3.2.0"
 
 mdn-data@2.0.14:
   version "2.0.14"

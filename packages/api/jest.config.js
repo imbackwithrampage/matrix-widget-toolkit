@@ -10,6 +10,6 @@ module.exports = {
   rootDir: '.',
   // Allow imports from other packages in this repository.
   moduleNameMapper: {
-    '@matrix-widget-toolkit/(.*)': '<rootDir>/../$1/src/index.ts',
+    '@beeper/matrix-widget-toolkit-(.*)': '<rootDir>/../$1/src/index.ts',
   },
 };

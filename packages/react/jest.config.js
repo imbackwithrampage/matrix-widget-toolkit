@@ -13,6 +13,6 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
   moduleNameMapper: {
     // Allow imports from other packages in this repository.
-    '@matrix-widget-toolkit/(.*)': '<rootDir>/../$1/src/index.ts',
+    '@beeper/matrix-widget-toolkit-(.*)': '<rootDir>/../$1/src/index.ts',
   },
 };
