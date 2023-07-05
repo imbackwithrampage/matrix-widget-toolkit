@@ -1,5 +1,5 @@
 {
-  "name": "@matrix-widget-toolkit/widget-server",
+  "name": "@beeper/matrix-widget-toolkit-widget-server",
   "version": "1.0.3",
   "private": true,
   "description": "A webserver to host a Matrix widget in a container",

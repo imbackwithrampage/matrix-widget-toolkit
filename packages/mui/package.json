@@ -1,5 +1,5 @@
 {
-  "name": "@matrix-widget-toolkit/mui",
+  "name": "@beeper/matrix-widget-toolkit-mui",
   "version": "1.1.4",
   "description": "A customized material-ui theme that matches the style of the Element Matrix client",
   "author": "Nordeck IT + Consulting GmbH",
@@ -58,7 +58,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nordeck/matrix-widget-toolkit.git",
+    "url": "https://github.com/beeper/matrix-widget-toolkit.git",
     "directory": "packages/mui"
   },
   "publishConfig": {

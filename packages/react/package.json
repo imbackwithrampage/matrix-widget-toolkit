@@ -1,5 +1,5 @@
 {
-  "name": "@matrix-widget-toolkit/react",
+  "name": "@beeper/matrix-widget-toolkit-react",
   "version": "1.0.5",
   "description": "A simplified layer on top of @matrix-widget-toolkit/api to use it in a React based widget.",
   "author": "Nordeck IT + Consulting GmbH",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nordeck/matrix-widget-toolkit.git",
+    "url": "https://github.com/beeper/matrix-widget-toolkit.git",
     "directory": "packages/react"
   },
   "publishConfig": {

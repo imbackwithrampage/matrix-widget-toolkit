@@ -1,5 +1,5 @@
 {
-  "name": "@matrix-widget-toolkit/semantic-ui",
+  "name": "@beeper/matrix-widget-toolkit-semantic-ui",
   "version": "1.0.6",
   "description": "A customized semantic-ui theme that matches the style of the Element Matrix client",
   "deprecated": true,
@@ -56,7 +56,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nordeck/matrix-widget-toolkit.git",
+    "url": "https://github.com/beeper/matrix-widget-toolkit.git",
     "directory": "packages/semantic-ui"
   },
   "publishConfig": {
