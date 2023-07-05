@@ -18,8 +18,8 @@ import { MatrixCapabilities } from '@beeper/matrix-widget-api';
 import {
   ElementAvatar,
   MuiCapabilitiesGuard,
-} from '@matrix-widget-toolkit/mui';
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
+} from '@beeper/matrix-widget-toolkit-mui';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
 import {
   Alert,
   Autocomplete,

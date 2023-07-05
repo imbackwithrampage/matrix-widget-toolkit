@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { RoomEvent, StateEvent } from '@matrix-widget-toolkit/api';
+import { RoomEvent, StateEvent } from '@beeper/matrix-widget-toolkit-api';
 import {
   MessageCollectionEvent,
   ReactionEvent,

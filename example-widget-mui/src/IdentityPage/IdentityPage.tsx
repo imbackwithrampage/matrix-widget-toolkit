@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
 import { Alert, AlertTitle, Box, Skeleton } from '@mui/material';
 import { ReactElement } from 'react';
 import { useAsync } from 'react-use';

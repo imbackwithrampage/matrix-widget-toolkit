@@ -2,7 +2,7 @@ module.exports = {
   plugins: [
     { plugin: importLocalPackages() },
     {
-      plugin: require('@matrix-widget-toolkit/semantic-ui/craco/buildSemanticUiThemePlugin'),
+      plugin: require('@beeper/matrix-widget-toolkit-semantic-ui/craco/buildSemanticUiThemePlugin'),
     },
   ],
 };

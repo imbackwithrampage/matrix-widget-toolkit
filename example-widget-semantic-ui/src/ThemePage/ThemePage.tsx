@@ -68,7 +68,7 @@ export function Intro() {
           Semantic UI React
         </a>{' '}
         for reusable UI controls and the{' '}
-        <code>@matrix-widget-toolkit/semantic-ui</code> package to match the
+        <code>@beeper/matrix-widget-toolkit-semantic-ui</code> package to match the
         design of Element. It's not our goal to match the Element design
         completly and we add additional elements to fit our needs.
       </p>

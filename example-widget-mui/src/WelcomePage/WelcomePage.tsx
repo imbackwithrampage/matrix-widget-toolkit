@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { ElementAvatar } from '@matrix-widget-toolkit/mui';
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
+import { ElementAvatar } from '@beeper/matrix-widget-toolkit-mui';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
 import { Box, Card, CardHeader } from '@mui/material';
 import { ReactElement } from 'react';
 import { NavigationBar } from '../NavigationPage';

@@ -25,9 +25,9 @@ import {
   isValidPowerLevelStateEvent,
   ROOM_EVENT_REDACTION,
   STATE_EVENT_POWER_LEVELS,
-} from '@matrix-widget-toolkit/api';
-import { MuiCapabilitiesGuard } from '@matrix-widget-toolkit/mui';
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
+} from '@beeper/matrix-widget-toolkit-api';
+import { MuiCapabilitiesGuard } from '@beeper/matrix-widget-toolkit-mui';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import CheckIcon from '@mui/icons-material/Check';
 import ClearIcon from '@mui/icons-material/Clear';

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { WidgetApiImpl } from '@matrix-widget-toolkit/api';
+import { WidgetApiImpl } from '@beeper/matrix-widget-toolkit-api';
 import { render, screen } from '@testing-library/react';
 import { App } from './App';
 

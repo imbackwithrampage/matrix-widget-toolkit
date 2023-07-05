@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
 import { PropsWithChildren, ReactElement, useState } from 'react';
 import { Provider } from 'react-redux';
 import { createStore } from './store';

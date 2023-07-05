@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { MockedWidgetApi, mockWidgetApi } from '@matrix-widget-toolkit/testing';
+import { MockedWidgetApi, mockWidgetApi } from '@beeper/matrix-widget-toolkit-testing';
 import { waitFor } from '@testing-library/react';
 import { createStore } from '../store';
 import { powerLevelsApi } from './powerLevelsApi';

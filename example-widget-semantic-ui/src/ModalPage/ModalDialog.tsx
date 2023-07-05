@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
 import { ReactElement, useCallback, useEffect } from 'react';
 import { useAsync } from 'react-use';
 import { Button, Container, Header } from 'semantic-ui-react';

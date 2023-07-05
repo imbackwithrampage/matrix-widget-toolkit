@@ -23,7 +23,7 @@ import {
   PowerLevelsStateEvent,
   StateEvent,
   STATE_EVENT_POWER_LEVELS,
-} from '@matrix-widget-toolkit/api';
+} from '@beeper/matrix-widget-toolkit-api';
 import { first, isError } from 'lodash';
 import { baseApi, ThunkExtraArgument } from '../store';
 

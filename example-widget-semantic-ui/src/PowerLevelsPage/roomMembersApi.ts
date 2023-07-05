@@ -19,7 +19,7 @@ import {
   RoomMemberStateEventContent,
   StateEvent,
   STATE_EVENT_ROOM_MEMBER,
-} from '@matrix-widget-toolkit/api';
+} from '@beeper/matrix-widget-toolkit-api';
 import { createEntityAdapter, EntityState } from '@reduxjs/toolkit';
 import { isError } from 'lodash';
 import { baseApi, ThunkExtraArgument } from '../store';

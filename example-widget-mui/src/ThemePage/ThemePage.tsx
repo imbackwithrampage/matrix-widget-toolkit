@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { ElementAvatar } from '@matrix-widget-toolkit/mui';
+import { ElementAvatar } from '@beeper/matrix-widget-toolkit-mui';
 import BrushIcon from '@mui/icons-material/Brush';
 import CheckIcon from '@mui/icons-material/Check';
 import DeleteIcon from '@mui/icons-material/Delete';
@@ -119,7 +119,7 @@ export function Intro() {
         <Link href="https://mui.com/" target="_blank" rel="noreferrer">
           Material UI React (Mui)
         </Link>{' '}
-        for reusable UI controls and the <code>@matrix-widget-toolkit/mui</code>{' '}
+        for reusable UI controls and the <code>@beeper/matrix-widget-toolkit-mui</code>{' '}
         package to match the design of Element. It's not our goal to match the
         Element design completly and we add additional elements to fit our
         needs.

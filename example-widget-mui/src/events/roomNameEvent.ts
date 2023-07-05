@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { StateEvent } from '@matrix-widget-toolkit/api';
+import { StateEvent } from '@beeper/matrix-widget-toolkit-api';
 import Joi from 'joi';
 import { isValidEvent } from './validation';
 

@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import { redactEvent } from '@matrix-widget-toolkit/api';
-import { MockedWidgetApi, mockWidgetApi } from '@matrix-widget-toolkit/testing';
+import { redactEvent } from '@beeper/matrix-widget-toolkit-api';
+import { MockedWidgetApi, mockWidgetApi } from '@beeper/matrix-widget-toolkit-testing';
 import { waitFor } from '@testing-library/react';
 import { createStore } from '../store';
 import { roomMessagesApi } from './roomMessagesApi';

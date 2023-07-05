@@ -25,9 +25,9 @@ import {
   StateEvent,
   WidgetApi,
   WIDGET_CAPABILITY_NAVIGATE,
-} from '@matrix-widget-toolkit/api';
-import { MuiCapabilitiesGuard } from '@matrix-widget-toolkit/mui';
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
+} from '@beeper/matrix-widget-toolkit-api';
+import { MuiCapabilitiesGuard } from '@beeper/matrix-widget-toolkit-mui';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import {
   Alert,

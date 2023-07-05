@@ -26,9 +26,9 @@ import {
   PowerLevelsActions,
   STATE_EVENT_POWER_LEVELS,
   STATE_EVENT_ROOM_MEMBER,
-} from '@matrix-widget-toolkit/api';
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
-import { SemanticUiCapabilitiesGuard } from '@matrix-widget-toolkit/semantic-ui';
+} from '@beeper/matrix-widget-toolkit-api';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
+import { SemanticUiCapabilitiesGuard } from '@beeper/matrix-widget-toolkit-semantic-ui';
 import { first } from 'lodash';
 import { ReactElement, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';

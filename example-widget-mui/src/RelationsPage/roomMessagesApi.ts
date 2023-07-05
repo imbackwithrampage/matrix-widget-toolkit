@@ -18,7 +18,7 @@ import {
   observeRedactionEvents,
   redactEvent,
   RoomEvent,
-} from '@matrix-widget-toolkit/api';
+} from '@beeper/matrix-widget-toolkit-api';
 import { isError } from 'lodash';
 import { filter } from 'rxjs';
 import {

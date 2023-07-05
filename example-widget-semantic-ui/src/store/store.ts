@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { WidgetApi } from '@matrix-widget-toolkit/api';
+import { WidgetApi } from '@beeper/matrix-widget-toolkit-api';
 import { configureStore } from '@reduxjs/toolkit';
 import { baseApi } from './baseApi';
 

@@ -18,8 +18,8 @@ import {
   EventDirection,
   WidgetEventCapability,
 } from '@beeper/matrix-widget-api';
-import { MuiCapabilitiesGuard } from '@matrix-widget-toolkit/mui';
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
+import { MuiCapabilitiesGuard } from '@beeper/matrix-widget-toolkit-mui';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
 import {
   Alert,
   Box,

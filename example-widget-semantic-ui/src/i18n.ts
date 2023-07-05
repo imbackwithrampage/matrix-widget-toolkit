@@ -17,7 +17,7 @@
 import {
   WidgetApiLanguageDetector,
   WidgetToolkitI18nBackend,
-} from '@matrix-widget-toolkit/semantic-ui';
+} from '@beeper/matrix-widget-toolkit-semantic-ui';
 import i18n from 'i18next';
 import ChainedBackend from 'i18next-chained-backend';
 import HttpBackend from 'i18next-http-backend';

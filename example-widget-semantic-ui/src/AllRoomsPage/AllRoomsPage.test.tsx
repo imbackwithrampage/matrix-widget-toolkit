@@ -18,9 +18,9 @@ import {
   EventDirection,
   WidgetEventCapability,
 } from '@beeper/matrix-widget-api';
-import { StateEvent } from '@matrix-widget-toolkit/api';
-import { WidgetApiMockProvider } from '@matrix-widget-toolkit/react';
-import { MockedWidgetApi, mockWidgetApi } from '@matrix-widget-toolkit/testing';
+import { StateEvent } from '@beeper/matrix-widget-toolkit-api';
+import { WidgetApiMockProvider } from '@beeper/matrix-widget-toolkit-react';
+import { MockedWidgetApi, mockWidgetApi } from '@beeper/matrix-widget-toolkit-testing';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { ComponentType, PropsWithChildren } from 'react';

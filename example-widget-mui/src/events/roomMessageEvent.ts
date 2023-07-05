@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { RoomEvent } from '@matrix-widget-toolkit/api';
+import { RoomEvent } from '@beeper/matrix-widget-toolkit-api';
 import Joi from 'joi';
 import { isValidEvent } from './validation';
 

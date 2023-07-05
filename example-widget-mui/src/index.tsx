@@ -18,7 +18,7 @@ import {
   EventDirection,
   WidgetEventCapability,
 } from '@beeper/matrix-widget-api';
-import { WidgetApiImpl } from '@matrix-widget-toolkit/api';
+import { WidgetApiImpl } from '@beeper/matrix-widget-toolkit-api';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { App } from './App';

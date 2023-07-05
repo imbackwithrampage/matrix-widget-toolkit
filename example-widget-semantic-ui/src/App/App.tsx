@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-import { WidgetApi } from '@matrix-widget-toolkit/api';
+import { WidgetApi } from '@beeper/matrix-widget-toolkit-api';
 import {
   SemanticUiThemeProvider,
   SemanticUiWidgetApiProvider,
-} from '@matrix-widget-toolkit/semantic-ui';
+} from '@beeper/matrix-widget-toolkit-semantic-ui';
 import { ReactElement, Suspense } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AllRoomsPage } from '../AllRoomsPage';

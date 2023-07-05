@@ -23,9 +23,9 @@ import {
   generateRoomTimelineCapabilities,
   navigateToRoom,
   WIDGET_CAPABILITY_NAVIGATE,
-} from '@matrix-widget-toolkit/api';
-import { useWidgetApi } from '@matrix-widget-toolkit/react';
-import { SemanticUiCapabilitiesGuard } from '@matrix-widget-toolkit/semantic-ui';
+} from '@beeper/matrix-widget-toolkit-api';
+import { useWidgetApi } from '@beeper/matrix-widget-toolkit-react';
+import { SemanticUiCapabilitiesGuard } from '@beeper/matrix-widget-toolkit-semantic-ui';
 import { ReactElement } from 'react';
 import { Link } from 'react-router-dom';
 import { useAsyncRetry } from 'react-use';
