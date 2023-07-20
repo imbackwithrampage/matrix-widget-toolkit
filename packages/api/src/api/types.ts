@@ -84,8 +84,8 @@ export type WidgetParameters = {
  * Generic type for state events.
  */
 export type StateEvent<T = unknown> = Omit<
-    IRoomEvent,
-    'content' | 'unsigned' | 'state_key'
+  IRoomEvent,
+  'content' | 'unsigned' | 'state_key'
 > & {
   state_key: string;
   content: T;
@@ -95,8 +95,8 @@ export type StateEvent<T = unknown> = Omit<
  * Generic type for room events.
  */
 export type RoomEvent<T = unknown> = Omit<
-    IRoomEvent,
-    'content' | 'state_key' | 'unsigned'
+  IRoomEvent,
+  'content' | 'state_key' | 'unsigned'
 > & {
   content: T;
 };
@@ -104,10 +104,7 @@ export type RoomEvent<T = unknown> = Omit<
 /**
  * Generic type for room account data.
  */
-export type RoomAccountData<T = unknown> = Omit<
-    IRoomAccountData,
-    'content' | 'unsigned'
-> & {
+export type RoomAccountData<T = unknown> = Omit<IRoomAccountData, 'content'> & {
   content: T;
 };
 
@@ -332,18 +329,18 @@ export type WidgetApi = {
    */
 
   receiveRoomAccountData<T>(
-      eventType: string,
-      options?: { roomIds?: string[] | Symbols.AnyRoom }
+    eventType: string,
+    options?: { roomIds?: string[] | Symbols.AnyRoom }
   ): Promise<Array<RoomAccountData<T>>>;
 
   receiveRoomEvents<T>(
-      eventType: string,
-      options?: {
-        messageType?: string;
-        limit?: number;
-        roomIds?: string[] | Symbols.AnyRoom;
-        since?: string | undefined;
-      }
+    eventType: string,
+    options?: {
+      messageType?: string;
+      limit?: number;
+      roomIds?: string[] | Symbols.AnyRoom;
+      since?: string | undefined;
+    }
   ): Promise<Array<RoomEvent<T>>>;
 
   /**

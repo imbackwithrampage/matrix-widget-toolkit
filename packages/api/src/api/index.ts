@@ -28,6 +28,7 @@ export {
   repairWidgetRegistration,
 } from './registration';
 export type {
+  RoomAccountData,
   RoomEvent,
   StateEvent,
   ToDeviceMessageEvent,
