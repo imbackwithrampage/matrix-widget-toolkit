@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/api`
 
+## 3.3.2
+
+### Patch Changes
+
+- b5b7730: Export type RoomAccountData
+
 ## 3.3.1
 
 ### Patch Changes
