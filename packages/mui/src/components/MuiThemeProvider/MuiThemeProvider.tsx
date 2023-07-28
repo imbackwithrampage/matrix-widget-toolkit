@@ -88,13 +88,13 @@ function ElementMuiThemeProvider({ children }: PropsWithChildren<{}>) {
   const { theme } = useThemeSelection();
   const [locale, setLocale] = useState<string | undefined>(i18n.languages?.[0]);
 
-  useEffect(() => {
-    const callback = () => setLocale(i18n.languages?.[0]);
-
-    i18n.on('languageChanged', callback);
-
-    return () => i18n.off('languageChanged', callback);
-  }, []);
+  // useEffect(() => {
+  //   const callback = () => setLocale(i18n.languages?.[0]);
+  //
+  //   i18n.on('languageChanged', callback);
+  //
+  //   return () => i18n.off('languageChanged', callback);
+  // }, []);
 
   const muiTheme = useMemo(() => {
     const themeOptions = chooseTheme(theme);
