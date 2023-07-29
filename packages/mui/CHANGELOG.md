@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/mui`
 
+## 1.2.2
+
+### Patch Changes
+
+- 5d615a4: remove useEffect for NextJS
+
 ## 1.2.1
 
 ### Patch Changes
