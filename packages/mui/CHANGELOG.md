@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/mui`
 
+## 1.2.3
+
+### Patch Changes
+
+- 4b57900: Revert useEffect removal
+
 ## 1.2.2
 
 ### Patch Changes
