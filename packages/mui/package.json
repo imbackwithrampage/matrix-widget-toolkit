@@ -15,7 +15,7 @@
     "@types/jest": "^27.5.2",
     "@types/jest-axe": "^3.5.5",
     "@types/lodash": "^4.14.195",
-    "@types/node": "^16.18.34",
+    "@types/node": "^20.8.9",
     "@types/react": "^17.0.45",
     "copyfiles": "^2.4.1",
     "i18next-parser": "^8.0.0",
@@ -43,8 +43,8 @@
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@fontsource/inter": "^5.0.15",
-    "@mui/icons-material": "^5.11.16",
+    "@fontsource/inter": "^5.0.2",
+    "@mui/icons-material": "^5.14.15",
     "@mui/material": "^5.13.4",
     "@mui/utils": "^5.13.1",
     "i18next": "^22.5.1",
@@ -53,7 +53,7 @@
     "lodash": "^4.17.21",
     "@beeper/matrix-widget-api": "^1.5.0",
     "react": "^17.0.2",
-    "react-i18next": "^12.3.1",
+    "react-i18next": "^13.3.1",
     "react-use": "^17.4.0"
   },
   "repository": {
