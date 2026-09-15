@@ -37,7 +37,7 @@
     "generate-api-report": "tsc && api-extractor run --verbose --local"
   },
   "dependencies": {
-    "@fontsource/lato": "^5.0.2",
+    "@fontsource/lato": "^5.0.17",
     "@beeper/matrix-widget-toolkit-api": "^3.3.1",
     "@beeper/matrix-widget-toolkit-react": "^1.0.8",
     "i18next": "^22.5.1",
