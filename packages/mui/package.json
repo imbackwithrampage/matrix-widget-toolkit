@@ -42,7 +42,7 @@
     "@beeper/matrix-widget-toolkit-react": "^1.0.8",
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
+    "@emotion/styled": "^11.14.1",
     "@fontsource/inter": "^5.0.2",
     "@mui/icons-material": "^5.14.15",
     "@mui/material": "^5.13.4",
