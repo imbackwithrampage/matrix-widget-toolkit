@@ -1079,10 +1079,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@beeper/matrix-widget-api@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@beeper/matrix-widget-api/-/matrix-widget-api-1.5.0.tgz#2ec5e966b938cb86cc441b8f6004a3465ae7378d"
-  integrity sha512-j2w4OyRePDYs9SuMR3qHDmZi4Q3gvuMKqfObXHV5/9lvYIXNCl9yIyFXOc2RS7V6Rs6B2bpwGmGGkjZP64/uQw==
+"@beeper/matrix-widget-api@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@beeper/matrix-widget-api/-/matrix-widget-api-1.5.1.tgz#5ce1a1d5d9ee8a2933ca4eb56a37c6e5d302d734"
+  integrity sha512-s+yUCQGxqMd7MUaQ5nnwJE1Ku5edMHYaAYLVh0MYj11kkVU7faTxUIByvVehurTeziYwYACFoFkf3Gz70fm+QA==
   dependencies:
     "@types/events" "^3.0.0"
     events "^3.2.0"
